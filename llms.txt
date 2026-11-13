@@ -1,0 +1,29 @@
+# RM SITES
+
+> RM SITES é o estúdio do desenvolvedor Ramon, em Eunápolis (Bahia, Brasil). Cria sites profissionais em HTML, CSS e JavaScript com SEO e GEO (otimização para buscadores e para inteligências artificiais) para profissionais liberais e empresas. Atende Eunápolis, Porto Seguro, Trancoso, Itabuna, Salvador e todo o Brasil, de forma online.
+
+## Serviços
+- Site institucional com SEO local
+- GEO: otimização para ChatGPT, Gemini, Perplexity e Google AI Overviews
+- Link na bio profissional para Instagram
+- Loja virtual com pedido por WhatsApp
+- Redesign de sites antigos
+- Google Meu Negócio
+
+## Fatos
+- Prazo padrão de entrega: até 7 dias após o envio de todas as informações pelo cliente.
+- Foco em posicionamento orgânico no Google, sem depender de anúncios pagos.
+- Tecnologia: HTML, CSS e JavaScript puros, sem plugins pesados.
+- Contato: WhatsApp e Instagram @ramonocode.
+
+## Projetos
+- [Vagalume Produtora](https://vagalumeprodutora.vercel.app/): filmes de casamento de luxo no litoral da Bahia.
+- [Construforte Construtora](https://construforteconstrutora.vercel.app/): construtora de alto padrão em Trancoso-BA.
+- [Janaína Silva Advocacia](https://janainasilvaadvocacia.vercel.app/): advocacia previdenciária e trabalhista em Eunápolis-BA.
+- [Isadora De Marchi Advocacia](https://isadorademarchiadv.vercel.app/): advocacia criminal, família e consumidor em Eunápolis-BA.
+- [Clínica Odontoriso](https://odontorisoeunapolis.vercel.app/): odontologia em Eunápolis-BA.
+
+## Links
+- [Site](https://rmsites.com.br/)
+- [Instagram](https://www.instagram.com/ramonocode)
+- [GitHub](https://github.com/ramoncodedev)
