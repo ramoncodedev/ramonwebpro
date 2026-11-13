@@ -20,4 +20,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://rmsites.com.br/sitemap.xml
+Sitemap: https://www.ramonwebpro.com.br/sitemap.xml
