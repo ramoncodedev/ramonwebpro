@@ -27,3 +27,7 @@
 - [Site](https://www.ramonwebpro.com.br/)
 - [Instagram](https://www.instagram.com/ramonocode)
 - [GitHub](https://github.com/ramoncodedev)
+
+## Páginas por cidade
+- [Criação de sites em Eunápolis](https://www.ramonwebpro.com.br/criacao-de-sites-eunapolis/)
+- [Criação de sites em Porto Seguro](https://www.ramonwebpro.com.br/criacao-de-sites-porto-seguro/)
