@@ -272,7 +272,7 @@ function fill(i){
  [['d',c.d],['a',c.a]].forEach(function(x){var b=m.querySelector('[data-k="'+x[0]+'"]');b.querySelector('h4').textContent=l[x[0]];b.querySelector('p').textContent=x[1]});
  var bp=m.querySelector('[data-k="p"]');bp.querySelector('h4').textContent=l.p;bp.querySelector('ul').innerHTML=c.p.map(function(t){return'<li>'+esc(t)+'</li>'}).join('');
  var bt=m.querySelector('[data-k="t"]');bt.querySelector('h4').textContent=l.t;bt.querySelector('.cm__chips').innerHTML=c.t.map(function(t){return'<span>'+esc(t)+'</span>'}).join('');
- var q=$('.cm__quote');q.querySelector('span').textContent=l.quote;q.href='https://wa.me/5573900000000?text='+encodeURIComponent((lang()==='en'?'Hi Ramon! I saw the '+name+' project and want a site like this.':'Olá Ramon! Vi o projeto '+name+' e quero um site assim.'));
+ var q=$('.cm__quote');q.querySelector('span').textContent=l.quote;q.href='https://wa.me/5573981598854?text='+encodeURIComponent((lang()==='en'?'Hi Ramon! I saw the '+name+' project and want a site like this.':'Olá Ramon! Vi o projeto '+name+' e quero um site assim.'));
  $('.cm__x').setAttribute('aria-label',l.close);m.querySelectorAll('.cm__nav button')[0].setAttribute('aria-label',l.prev);m.querySelectorAll('.cm__nav button')[1].setAttribute('aria-label',l.next);
  $('.cm__nav span').textContent=(cur+1)+' / '+cards.length;$('.cm__side').scrollTop=0;
 }
