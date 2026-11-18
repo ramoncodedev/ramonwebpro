@@ -31,8 +31,11 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="preload" as="image" href="assets/ramon-cut-900.webp" type="image/webp" media="(min-width:901px)" fetchpriority="high">
+<link rel="preload" as="image" href="assets/ramon-cut-m.webp" type="image/webp" media="(max-width:900px)" fetchpriority="high">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Instrument+Serif:ital@1&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Instrument+Serif:ital@1&display=swap"></noscript>
+<link rel="stylesheet" href="style.min.css">
 <script>document.documentElement.classList.add("js");try{if(sessionStorage.getItem("rm-loaded"))document.documentElement.classList.add("no-loader")}catch(e){}</script>
 
 <script type="application/ld+json">
@@ -304,7 +307,7 @@
 <!-- HERO -->
 <section class="hero3" id="topo-hero">
   <h1 class="hero3__h"><span class="hero3__l1" data-en="Web">Designer</span><span class="hero3__l2" data-en="Design">Web</span><span class="sr" data-en=" — strategic, fast websites that elevate your brand and generate business opportunities"> — sites estratégicos e rápidos que valorizam sua marca e geram oportunidades de negócio</span></h1>
-  <picture class="hero3__me"><source media="(max-width:900px)" srcset="assets/ramon-cut-m.webp"><img src="assets/ramon-cut.webp" width="1200" height="1276" alt="Ramon Silva, designer e desenvolvedor de sites" fetchpriority="high" decoding="async"></picture>
+  <picture class="hero3__me"><source media="(max-width:900px)" srcset="assets/ramon-cut-m.webp"><img src="assets/ramon-cut-900.webp" width="900" height="957" alt="Ramon Silva, designer e desenvolvedor de sites" fetchpriority="high" decoding="async"></picture>
   <p class="hero3__s hero3__s--l" data-en="Design + development<br>SEO + performance">Design + desenvolvimento<br>SEO + performance</p>
   <div class="hero3__s hero3__s--r">
     <p data-en="I don&#x27;t just make pretty sites. I make sites that sell.">Não faço só site bonito. Faço site que vende.</p>
@@ -495,6 +498,6 @@
 <a class="wpp" href="https://wa.me/5573981598854?text=Ol%C3%A1%20Ramon%21%20Vi%20seu%20site." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
   <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 15L2 22l5.1-1.5A9.9 9.9 0 1 0 12.04 2Zm5.8 14c-.25.7-1.4 1.3-1.9 1.35-.5.05-1.1.2-3.6-.8-3-1.2-4.9-4.3-5.05-4.5-.15-.2-1.2-1.6-1.2-3s.75-2.1 1-2.4c.25-.3.55-.35.75-.35h.55c.2 0 .4 0 .6.5.25.55.8 1.9.85 2 .05.1.1.25 0 .4-.1.2-.15.3-.3.5-.15.15-.3.35-.45.5-.15.15-.3.3-.15.6.15.25.7 1.2 1.55 1.9 1.05.95 1.95 1.25 2.2 1.4.3.15.45.1.6-.05.2-.2.7-.8.9-1.1.2-.3.4-.25.65-.15.25.1 1.6.75 1.9.9.25.15.45.2.5.3.05.1.05.65-.2 1.35Z"/></svg>
 </a>
-<script src="script.js" defer></script>
+<script src="script.min.js" defer></script>
 </body>
 </html>

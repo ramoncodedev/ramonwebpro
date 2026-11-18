@@ -15,15 +15,15 @@
   }
   if (loader && !root.classList.contains('no-loader')) {
     var n = document.getElementById('loaderN'), bar = document.getElementById('loaderBar');
-    var start = null, dur = 900;
+    var start = null, dur = 450;
     (function tick(ts) {
       if (start === null) start = ts;
       var p = Math.min(1, (ts - start) / dur);
       n.textContent = Math.round(p * 100);
       bar.style.width = (p * 100) + '%';
-      if (p < 1) requestAnimationFrame(tick); else setTimeout(finishLoader, 150);
+      if (p < 1) requestAnimationFrame(tick); else finishLoader();
     })(performance.now());
-    setTimeout(finishLoader, 3000); // segurança
+    setTimeout(finishLoader, 1500); // segurança
   }
 
   /* ---------- Header ---------- */
