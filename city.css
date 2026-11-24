@@ -5,3 +5,9 @@
 .who__list li::before{content:"✓";color:var(--g);font-size:.8em}
 .near{margin-top:26px;font-size:15px;color:#04121d}.near a{font-weight:700;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:900px){.dbr{display:none}.hero3--one .hero3__l2{font-size:1em}.hero3--city .hero3__h{font-size:min(15.5vw,11svh)}.hero3--city .hero3__l2{top:calc(max(12svh,98px) + min(15.5vw,11svh)*.86)}.who__list{grid-template-columns:1fr}}
+.guides__list{list-style:none;margin:40px 0 44px;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.guides__list a{display:flex;flex-direction:column;gap:10px;height:100%;padding:28px;border:1px solid var(--line-l);border-radius:20px;text-decoration:none;background:#fff;transition:transform .3s,box-shadow .3s}
+.guides__list a:hover{transform:translateY(-4px);box-shadow:0 20px 40px -24px rgba(0,0,0,.35)}
+.guides__list strong{font-size:clamp(19px,1.7vw,24px);letter-spacing:-.025em;line-height:1.2}
+.guides__list span{color:#6b6f6d;font-size:15px;line-height:1.55}
+@media(max-width:900px){.guides__list{grid-template-columns:1fr}}
