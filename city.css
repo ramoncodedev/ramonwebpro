@@ -1,0 +1,7 @@
+/* Páginas de cidade: ajustes sobre o estilo da home */
+.hero3--city .hero3__h{font-size:min(9.8vw,22svh)}.hero3--city .hero3__l2{text-align:right}.hero3--one .hero3__l2{font-size:.76em}
+.who__list{list-style:none;margin:48px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:0 clamp(30px,6vw,100px)}
+.who__list li{padding:24px 0;border-top:1px solid var(--line-d);font-size:clamp(18px,1.8vw,24px);font-weight:700;letter-spacing:-.02em;display:flex;gap:16px;align-items:baseline}
+.who__list li::before{content:"✓";color:var(--g);font-size:.8em}
+.near{margin-top:26px;font-size:15px;color:#04121d}.near a{font-weight:700;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:900px){.dbr{display:none}.hero3--one .hero3__l2{font-size:1em}.hero3--city .hero3__h{font-size:min(15.5vw,11svh)}.hero3--city .hero3__l2{top:calc(max(12svh,98px) + min(15.5vw,11svh)*.86)}.who__list{grid-template-columns:1fr}}

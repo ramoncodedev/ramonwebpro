@@ -52,6 +52,7 @@
           desc: 'Ramon builds strategic, professional websites in HTML, CSS and JS with SEO to help your business get found on Google. Based in Eunápolis, Bahia, serving all of Brazil.' }
   };
   function setLang(l) {
+    if (!i18n.length) return;
     i18n.forEach(function (el) { el.innerHTML = l === 'en' ? el.getAttribute('data-en') : el._pt; });
     root.lang = l === 'en' ? 'en' : 'pt-BR';
     document.title = meta[l].title;
